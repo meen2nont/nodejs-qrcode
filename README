@@ -1,0 +1,7 @@
+1. Install 
+    $ npm install
+2. Put replace your QR URL to QRUrl
+3. Run Node
+    $ node app.js
+
+Have Fun!!

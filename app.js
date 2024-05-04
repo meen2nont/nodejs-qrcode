@@ -1,0 +1,6 @@
+var QRCode = require('qrcode')
+const QRUrl = '00020101021230830016A00000067701011201150105566035565010220TRN1714621007698619D0316N9WOO7495115802453037645406300.005802TH5914HENG ONLINE888630421E8'
+
+QRCode.toString(QRUrl, { type: 'terminal', errorCorrectionLevel: 'M' }, function (err, url) {
+  console.log(url)
+})
